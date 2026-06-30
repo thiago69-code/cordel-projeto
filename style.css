@@ -54,7 +54,12 @@ section {
     line-height: 2em;
     font-size: 3.9vw;
     font-family: var(--fonte3);
-   
+}
+
+section > p {
+    padding-bottom: 2em;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.151);
 }
 
 .normal {
@@ -65,12 +70,26 @@ section {
 .imagem {
     background-color: rgb(100, 96, 96);
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem > p {
     display: inline-block;
     padding-left: 10px;
-    background-color: rgb(44, 44, 44);
+    background-color: rgba(44, 44, 44, 0.253);
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.781);
+}
+
+#img01 {
+    background-image: url('../cordel-projeto/imagens/background001.jpg');
+    background-position: bottom center;
+   
+}
+
+#img02 {
+    background-image: url('../cordel-projeto/imagens/background002.jpg');
+    background-position: center center;
 }
 
 footer {
